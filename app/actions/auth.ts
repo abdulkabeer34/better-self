@@ -90,8 +90,8 @@ export const VerifyUser = async (email: string, password: string) => {
 
     console.log('User found:', userVerified);
 
-    const passwordVerified = await comparePassword(password, userVerified.password);
-    console.log('Password match:', passwordVerified);
+    // const passwordVerified = await comparePassword(password, userVerified.password);
+    // console.log('Password match:', passwordVerified);
 
     // if (!passwordVerified) {
     //   console.log('Password does not match');
